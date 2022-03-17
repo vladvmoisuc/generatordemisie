@@ -1,0 +1,42 @@
+.resignation {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(17, 12, 46, 0.1) 0px 48px 50px 0px;
+  border: 0.1px solid rgba(17, 12, 46, 0.1);
+  flex-direction: column;
+  position: relative;
+  background: white;
+  height: 100%;
+  padding: 20px;
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    left: 20px;
+    right: 20px;
+    bottom: 30px;
+    position: absolute;
+  }
+
+  &__footer span {
+    line-height: 1.6;
+  }
+
+  &__number {
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  &__title,
+  &__subtitle {
+    margin: 5px;
+  }
+
+  &__paragraph {
+    line-height: 1.6;
+  }
+}
