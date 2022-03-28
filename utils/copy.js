@@ -29,7 +29,7 @@ export const WORD_DOCUMENT = {
 export const PAGE = {
   TITLE: 'Generează-ți demisia online, completând formularul de mai jos',
   DESCRIPTION:
-    'Completează formularul de mai jos cu datele din buletin și introdu numărul de zile de preaviz pe care le ai în contract. Ultima zi de lucru îți va fi calculată automat pe baza formulei: data de azi + 20 de lucrătorare(fără weekend-uri, fără zile libere naționale).',
+    'Completează formularul de mai jos cu datele din buletin și introdu numărul de zile de preaviz pe care le ai în contract. Ultima zi de lucru îți va fi calculată automat pe baza formulei: data de azi + numărul de zile de preaviz(avem noi grijă să eliminăm weekend-urile și zile libere naționale, ca să nu calculezi tu).',
   PRINT: 'Printează',
   DOWNLOAD_WORD: 'Descarcă Word',
   MADE_BY: 'Creat de către',

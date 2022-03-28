@@ -20,7 +20,7 @@ export const DATE_FORMAT = 'DD/MM/YYYY';
 export const FIELDS_MAPPER = {
   lastName: 'Nume',
   firstName: 'Prenume',
-  organization: 'Compania',
+  organization: 'Compania din care demisionezi',
   role: 'Funcția',
   seriesID: 'Serie buletin',
   numberID: 'Număr buletin',
